@@ -14,6 +14,16 @@ Requirements
 * gevent-inotifyx (optional, for Linux inotify support)
 * nose (optional, for running unit tests)
 
+Installation
+============
+Using pip:
+
+    pip install git+https://github.com/jgoldschrafe/metricinga.git#egg=metricinga
+
+To also install inotify support, follow that with:
+
+    pip install metricinga[inotify]
+
 Configuration
 =============
 
