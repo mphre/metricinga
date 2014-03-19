@@ -20,9 +20,9 @@ Using pip:
 
     pip install git+https://github.com/jgoldschrafe/metricinga.git#egg=metricinga
 
-To also install inotify support, follow that with:
+To also install inotify support, use this instead:
 
-    pip install metricinga[inotify]
+    pip install 'git+https://github.com/jgoldschrafe/metricinga.git@setup#egg=metricinga[inotify]'
 
 Configuration
 =============
